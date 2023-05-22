@@ -1,0 +1,10 @@
+  //
+                      OutlinedButton(
+                          style: OutlinedButton.styleFrom(
+                              side: const BorderSide(
+                            color: whiteColor,
+                          )),
+                          onPressed: () async {
+                            Get.offAll(() => const loginScreen());
+                          },
+                          child: logout.text.fontFamily(semibold).white.make()),
